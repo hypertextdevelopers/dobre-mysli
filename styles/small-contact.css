@@ -1,0 +1,464 @@
+@media all and (min-width: 400px) and (max-width: 767px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    html{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    body{
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-image: url("../img/cell-1344985_1920.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    :-moz-focusring {
+        border: none;
+        outline: none;
+    }
+    
+    .wrapper{
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .wrapper > .dark-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    
+    @media all and (min-width: 400px) and (max-width: 767px){
+    
+        .wrapper > nav{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 390px;
+            margin-left: -195px;
+            z-index: 3;
+            height: auto;
+            box-sizing: border-box;
+        }
+        
+        .wrapper > nav > ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+            flex-wrap: wrap;
+            padding-top: 20px
+        }
+        
+        ul > a > li{
+            width: 160px;
+            height: auto;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-sizing: border-box;
+            border: 1px solid #ffffff;
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        li:hover .border-bottom{
+            left: 0;
+        }
+    
+    }
+    
+    .wrapper > .contact-header{
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 150px;
+        position: relative;
+        z-index: 3;
+        transform: translateY(15px);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .4s linear, transform .4s linear; 
+    }
+    
+    .wrapper > .contact-header > header{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contact-header > header > h1{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 3.5rem;
+        color: #ffffff;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    
+    .contact-header > header > i{
+        color: #ffffff;
+        font-size: 3.5rem;
+        transform: scaleX(1.2);
+        cursor: pointer;
+        transition: all .1s linear;
+        padding-top: 20px;
+    }
+    
+    .contact-header > header > i:hover{
+        transform: translateY(10px)
+    }
+    
+    .contact-perf{
+        width: 100%;
+        height: auto;
+        background-color: rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .contact-perf > .contact-text-main{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0 10px 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-main{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0 0px 0;
+        position: relative;
+        z-index: 1;
+        flex-direction: column;
+    }
+
+    .contact-main > .dark-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .contact-main > footer{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
+    
+    footer > p{
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #ffffff;
+    }
+
+    .contact-container{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .contact-container > header{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-container > header > h2{
+        font-family: "Lato", sans-serif;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    .contact-container > .data-box{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .contact-container > .data-box > .datas{
+        width: 325px;
+        height: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .data-box > .datas > .icon-box{
+        width: 100px;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+    }
+
+    .datas > .icon-box > i{
+        font-size: 2rem;
+        color: #ffffff;
+    }
+
+    .data-box > .datas > .content{
+        width: calc(100% - 100px);
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .datas > .content > h4{
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-family: "Lato";
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .datas > .content > p{
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-family: "Lato";
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    form{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    form > .alert{
+        width: 100%;
+        height: calc(100% - 120px);
+        position: absolute;
+        left: 0;
+        top: 0px;
+        background: transparent;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .5s linear;
+    }
+
+    form > .alert > h2{
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    form > .inputs{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        position: relative;
+        z-index: 2;
+        opacity: 1;
+        visibility: visible;
+        flex-direction: column;
+    }
+
+    form > .inputs > input[type="text"]{
+        width: 220px;
+        height: 50px;   
+        box-sizing: border-box;
+        border: 0;
+        border: 2px solid #ffffff;
+        outline: 0;
+        background-color: transparent;
+        padding: 10px;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-size: .9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form > .inputs > input[type="text"]:focus::placeholder{
+        color: transparent;
+    }
+
+    form > .inputs > input[type="text"]::placeholder{
+        color: #ffffff;
+        opacity: 1;
+    }
+
+    form > .inputs > input[type="email"]{
+        width: 220px;
+        height: 50px;   
+        box-sizing: border-box;
+        border: 0;
+        border: 2px solid #ffffff;
+        outline: 0;
+        background-color: transparent;
+        padding: 10px;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-size: .9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form > .inputs > input[type="email"]::placeholder{
+        color: #ffffff;
+        opacity: 1;
+    }
+
+    form > .inputs > input[type="email"]:focus::placeholder{
+        color: transparent;
+    }
+
+    form > textarea{
+        width: 100%;
+        height: 150px;
+        box-sizing: border-box;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        padding: 20px;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-size: .9rem;
+        position: relative;
+        z-index: 2;
+        opacity: 1;
+        visibility: visible;
+        resize: none;
+    }
+
+    form > textarea::placeholder{
+        color: #ffffff;
+        opacity: 1;
+    }
+
+    form > textarea:focus::placeholder{
+        color: transparent;
+    }
+
+    form > textarea:focus{
+        border: 2px solid #ffffff;
+        outline: 0;
+    }
+
+    form > button[type="button"]{
+        width: 200px;
+        height: 50px;
+        border: 0;
+        outline: 0;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        background-color: transparent;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    input:required {
+        box-shadow:none;
+    }
+
+    input:invalid {
+        box-shadow:none;
+    }
+
+}

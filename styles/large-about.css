@@ -1,0 +1,466 @@
+@media all and (min-width: 1200px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    html{
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    body{
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-image: url("../img/11754920_713289305465123_5725842203364769613_o.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    :-moz-focusring {
+        border: none;
+        outline: none;
+    }
+    
+    .wrapper{
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .wrapper > .dark-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    
+    @media all and (min-width: 1200px) and (max-width: 1400px){
+    
+        .wrapper > nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+            height: 150px;
+            box-sizing: border-box;
+        }
+        
+        .wrapper > nav > ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+        
+        ul > a > li{
+            width: auto;
+            height: auto;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-right: 1px solid #ffffff;
+            border-left: 1px solid #ffffff;
+            border-top: 1px solid #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        a > li > .border-bottom{
+            height: 1px;
+            position: absolute;
+            background-color: #ffffff;
+            bottom: 0;
+        }
+        
+        a > li > .border-home{
+            width: 194px;
+            left: -194px;
+            transition: left .3s linear;
+        }
+        
+        a > li > .border-about{
+            width: 120.5px;
+            left: 0px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-terapy{
+            width: 193.53px;
+            left: -193.53px;
+            transition: left .29s linear;
+        }
+        
+        a > li > .border-thoughts{
+            width: 170.28px;
+            left: -170.28px;
+            transition: left .25s linear;
+        }
+        
+        a > li > .border-vine{
+            width: 97px;
+            left: -97px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-blog{
+            width: 89.1px;
+            left: -89.1px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-gallery{
+            width: 118.15px;
+            left: -118.15px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-contact{
+            width: 124.56px;
+            left: -124.56px;
+            transition: left .22s linear;
+        }
+        
+        li:hover .border-bottom{
+            left: 0;
+        }
+    
+    }
+    
+    @media all and (min-width: 1400px) and (max-width: 1600px){
+    
+        .wrapper > nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+            height: 150px;
+            box-sizing: border-box;
+        }
+        
+        .wrapper > nav > ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+        
+        ul > a > li{
+            width: auto;
+            height: auto;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 1.8rem;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-right: 1px solid #ffffff;
+            border-left: 1px solid #ffffff;
+            border-top: 1px solid #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        a > li > .border-bottom{
+            height: 1px;
+            position: absolute;
+            background-color: #ffffff;
+            bottom: 0;
+        }
+        
+        a > li > .border-home{
+            width: 226.2px;
+            left: -226.2px;
+            transition: left .3s linear;
+        }
+        
+        a > li > .border-about{
+            width: 136px;
+            left: 0px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-terapy{
+            width: 223.66px;
+            left: -223.66px;
+            transition: left .29s linear;
+        }
+        
+        a > li > .border-thoughts{
+            width: 195.7px;
+            left: -195.7px;
+            transition: left .25s linear;
+        }
+        
+        a > li > .border-vine{
+            width: 107.9px;
+            left: -107.9px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-blog{
+            width: 98.33px;
+            left: -98.33px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-gallery{
+            width: 133px;
+            left: -133px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-contact{
+            width: 140.5px;
+            left: -140.5px;
+            transition: left .22s linear;
+        }
+        
+        li:hover .border-bottom{
+            left: 0;
+        }
+        
+    }
+    
+    @media all and (min-width: 1600px){
+    
+        .wrapper > nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+            height: 150px;
+            box-sizing: border-box;
+        }
+        
+        .wrapper > nav > ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+        
+        ul > a > li{
+            width: auto;
+            height: auto;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 1.9rem;
+            cursor: pointer;
+            box-sizing: border-box;
+            border-right: 1px solid #ffffff;
+            border-left: 1px solid #ffffff;
+            border-top: 1px solid #ffffff;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        a > li > .border-bottom{
+            height: 1px;
+            position: absolute;
+            background-color: #ffffff;
+            bottom: 0;
+        }
+        
+        a > li > .border-home{
+            width: 248.5px;
+            left: -248.5px;
+            transition: left .3s linear;
+        }
+        
+        a > li > .border-about{
+            width: 148px;
+            left: 0px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-terapy{
+            width: 248.5px;
+            left: -248.5px;
+            transition: left .29s linear;
+        }
+        
+        a > li > .border-thoughts{
+            width: 214.5px;
+            left: -214.5px;
+            transition: left .25s linear;
+        }
+        
+        a > li > .border-vine{
+            width: 117px;
+            left: -117px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-blog{
+            width: 106.4px;
+            left: -106.4px;
+            transition: left .2s linear;
+        }
+        
+        a > li > .border-gallery{
+            width: 145px;
+            left: -145px;
+            transition: left .22s linear;
+        }
+        
+        a > li > .border-contact{
+            width: 153.5px;
+            left: -153.5px;
+            transition: left .22s linear;
+        }
+        
+        li:hover .border-bottom{
+            left: 0;
+        }
+        
+    }
+    
+    .wrapper > .about-header{
+        width: 1200px;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+        transform: translateY(15px);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .4s linear, transform .4s linear; 
+    }
+    
+    .wrapper > .about-header > header{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .about-header > header > h1{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 4.5rem;
+        color: #ffffff;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    
+    .about-header > header > i{
+        color: #ffffff;
+        font-size: 4.5rem;
+        transform: scaleX(1.2);
+        cursor: pointer;
+        transition: all .1s linear;
+        padding-top: 20px;
+    }
+    
+    .about-header > header > i:hover{
+        transform: translateY(10px)
+    }
+    
+    .about-perf{
+        width: 100%;
+        height: auto;
+        background-color: rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-perf > .about-text-main{
+        width: 1200px;
+        height: 800px;
+        box-sizing: border-box;
+        padding: 0 10px 0 10px;
+        background-color: #ffffff;
+    }
+    
+    .about-main{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 30px 0 0px 0;
+        position: relative;
+        z-index: 1;
+        flex-direction: column;
+    }
+
+    .about-main > .dark-layer{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .about-main > footer{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
+
+    footer > p{
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
+}
