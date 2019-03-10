@@ -1,9 +1,9 @@
 <?php
 
-    $db_ip = '127.0.0.1';
-    $login = 'root';
-    $passw = '';
-    $db_name = 'dobre_mysli';
+    $db_ip = 'sql.dobremysli.nazwa.pl';
+    $login = 'dobremysli_htdev';
+    $passw = 'zaq1@WSX';
+    $db_name = 'dobremysli';
 
     $conn = new mysqli($db_ip, $login, $passw, $db_name);
 

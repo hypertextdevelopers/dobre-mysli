@@ -16,6 +16,6 @@
     $mess .= 'Nazwisko: '.$last_name."\r\n";
     $mess .= $message;
 
-    mail('example@gmail.com', $topic, $mess, $headers);
+    mail('terazdobremysli@gmail.com', $topic, $mess, $headers);
 
 ?>

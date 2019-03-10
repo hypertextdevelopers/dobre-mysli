@@ -18,7 +18,7 @@
                         <header>
                             <h3>'.$row['title'].'</h3>
                         </header>
-                        <p class="text">'.$row['content'].'</p>
+                        <pre class="text">'.$row['content'].'</pre>
                         <p class="date">'.$row['date'].'</p>
                     </div>
                     <img class="image-post" src='.$row['src'].'>

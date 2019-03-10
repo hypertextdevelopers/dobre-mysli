@@ -4,7 +4,7 @@
 
     if( !isset($_SESSION['logged']) || $_SESSION['logged'] != TRUE ){
 
-        header("Location: http://localhost/portfolio/DobreMysli/YYFA7pliZH2XfY2S0ghEpccrw3VhAQEmE7LAmUIc/error.php"); 
+        header("Location: http://www.dobremysli.eu/admin/error.php"); 
 
     }
 

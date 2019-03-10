@@ -16,11 +16,11 @@
         if($rsl -> num_rows > 0){
 
             $_SESSION['logged'] = TRUE;
-            header("Location: http://localhost/portfolio/DobreMysli/YYFA7pliZH2XfY2S0ghEpccrw3VhAQEmE7LAmUIc/admin-panel.php?logged=true");
+            header("Location: http://www.dobremysli.eu/admin/admin-panel.php?logged=true");
 
         }else{
             
-            header("Location: http://localhost/portfolio/DobreMysli/YYFA7pliZH2XfY2S0ghEpccrw3VhAQEmE7LAmUIc/index.php?undefined");
+            header("Location: http://www.dobremysli.eu/admin/index.php?undefined");
 
         }
 

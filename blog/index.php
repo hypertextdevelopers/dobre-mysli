@@ -28,8 +28,8 @@
                 <a href="../terapia">
                     <li class="active"><span class="border-bottom border-terapy"></span>Psychoterapia</li>
                 </a>
-                <a href="../myśli">
-                    <li><span class="border-bottom border-thoughts"></span>Dobre myśli</li>
+                <a href="../dietetyk">
+                    <li><span class="border-bottom border-thoughts"></span>Dietetyk</li>
                 </a>
                 <a href="../wino">
                     <li><span class="border-bottom border-vine"></span>Wino</li>
@@ -45,23 +45,11 @@
                 </a>
             </ul>
         </nav>
-        <div class="blog-header" id="blog-header">
-            <header>
-                <h1>Blog</h1>   
-                <i class="fas fa-angle-down" id="arrow_down"></i>
-            </header>
-        </div>
-        <div class="dark-layer"></div>
-    </div>
-    <div class="blog-perf">
-        <div class="dark-layer"></div>
-        <div class="blog-text-main" id="blog-text-main">
-            <ul id="posts-ul">
-            </ul>
-        </div>
-    </div>
-    <div class="blog-main">
-        <div class="dark-layer"></div>
+        <main>
+            <div class="content">
+                <ul id="posts-ul"></ul>
+            </div>
+        </main>
         <footer>
             <p>© 2019 Dobre Myśli - Wszelkie prawa zastrzeżone</p>
         </footer>

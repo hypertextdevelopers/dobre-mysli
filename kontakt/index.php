@@ -28,8 +28,8 @@
                 <a href="../terapia">
                     <li class="active"><span class="border-bottom border-terapy"></span>Psychoterapia</li>
                 </a>
-                <a href="../myśli">
-                    <li><span class="border-bottom border-thoughts"></span>Dobre myśli</li>
+                <a href="../dietetyk">
+                    <li><span class="border-bottom border-thoughts"></span>Dietetyk</li>
                 </a>
                 <a href="../wino">
                     <li><span class="border-bottom border-vine"></span>Wino</li>
@@ -45,59 +45,49 @@
                 </a>
             </ul>
         </nav>
-        <div class="contact-header" id="contact-header">
-            <header>
-                <h1>Kontakt</h1>
-                <i class="fas fa-angle-down" id="arrow_down"></i>
-            </header>
-        </div>
-        <div class="dark-layer"></div>
-    </div>
-    <div class="contact-perf">
-        <div class="contact-text-main" id="contact-text-main">
-            <div class="contact-container">
-                <header>
-                    <h2>Skontaktuj się ze mną</h2>
-                </header>
-                <div class="data-box">
-                    <div class="datas">
-                        <div class="icon-box">
-                            <i class="fas fa-phone"></i>
+        <main>
+            <div class="contact-perf">
+                <div class="contact-text-main" id="contact-text-main">
+                    <div class="contact-container">
+                        <header>
+                            <h2>Skontaktuj się ze mną</h2>
+                        </header>
+                        <div class="data-box">
+                            <div class="datas">
+                                <div class="icon-box">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>NUMERY Kontaktowe</h4>
+                                    <p>+48 509470232</p>
+                                </div>
+                            </div>
+                            <div class="datas">
+                            <div class="icon-box">
+                                <i class="fas fa-at"></i>
+                                </div>
+                                <div class="content">
+                                    <h4>ADRES E-MAIL</h4>
+                                    <p>terazdobremysli@gmail.com</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h4>NUMERY Kontaktowe</h4>
-                            <p>+48 123456789</p>
-                            <p>+48 987654321</p>
-                        </div>
-                    </div>
-                    <div class="datas">
-                    <div class="icon-box">
-                        <i class="fas fa-at"></i>
-                        </div>
-                        <div class="content">
-                            <h4>ADRES E-MAIL</h4>
-                            <p>test@wp.pl</p>
-                            <p>test2@onet.pl</p>
-                        </div>
+                        <form action="" method="POST" id="form">
+                            <div class="inputs" id="inputs">
+                                <input type="text" id="inp_name" placeholder="Podaj imię">
+                                <input type="text" id="inp_lastname" placeholder="Podaj nazwisko">
+                                <input type="email" id="inp_email" placeholder="Podaj adres e-mail">
+                            </div>
+                            <textarea id="textarea" placeholder="Wprowadź wiadomość..."></textarea>
+                            <button type="button" id="message_button">Wyślij</button>
+                            <div class="alert" id="alert">
+                                <h2>Dziękuję za kontakt ze mną, postaram się odpowiedzieć jak najszybciej :)</h2>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <form action="" method="POST" id="form">
-                    <div class="inputs" id="inputs">
-                        <input type="text" id="inp_name" placeholder="Podaj imię">
-                        <input type="text" id="inp_lastname" placeholder="Podaj nazwisko">
-                        <input type="email" id="inp_email" placeholder="Podaj adres e-mail">
-                    </div>
-                    <textarea id="textarea" placeholder="Wprowadź wiadomość..."></textarea>
-                    <button type="button" id="message_button">Wyślij</button>
-                    <div class="alert" id="alert">
-                        <h2>Dziękuję za kontakt ze mną, postaram się odpowiedzieć jak najszybciej :)</h2>
-                    </div>
-                </form>
             </div>
-        </div>
-    </div>
-    <div class="contact-main">
-        <div class="dark-layer"></div>
+        </main>
         <footer>
             <p>© 2019 Dobre Myśli - Wszelkie prawa zastrzeżone</p>
         </footer>

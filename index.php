@@ -24,8 +24,8 @@
             <a href="terapia">
                 <button type="button" class="btn btn-terapy" id="btn-terapy"><span class="border-bottom border-terapy"></span>Psychoterapia</button>
             </a>
-            <a href="myśli">
-                <button type="button" class="btn btn-well-thoughts" id="btn-thoughts"><span class="border-bottom border-thoughts"></span>Dobre myśli</button>
+            <a href="dietetyk">
+                <button type="button" class="btn btn-well-thoughts" id="btn-thoughts"><span class="border-bottom border-thoughts"></span>Dietetyk</button>
             </a>
             <a href="wino">
                 <button type="button" class="btn btn-vine" id="btn-vine"><span class="border-bottom border-vine"></span>Wino</button>

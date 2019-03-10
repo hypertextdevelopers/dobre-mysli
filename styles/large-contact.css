@@ -38,18 +38,42 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .wrapper > .dark-layer{
-        width: 100%;
-        height: 100%;
+        flex-direction: column;
         background-color: rgba(0,0,0,0.6);
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
+    }
+
+    .wrapper > main{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 250px 0 200px 0;
     }
     
+    .wrapper > footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
+    
+    .wrapper > footer > p{
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+
     @media all and (min-width: 1200px) and (max-width: 1400px){
     
         .wrapper > nav{
@@ -408,7 +432,6 @@
     .contact-perf{
         width: 100%;
         height: auto;
-        background-color: rgba(0,0,0,0.6);
         display: flex;
         align-items: center;
         justify-content: center;
